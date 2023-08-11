@@ -7,8 +7,9 @@ module.exports = {
     async up(queryInterface, Sequelize) {
         await queryInterface.bulkInsert('departments', [{
             name: faker.person.jobTitle(),
-            createdAt: new Date(),
-            updatedAt: new Date()
+            description: faker.lorem.paragraph(),
+            created_at: new Date(),
+            updated_at: new Date()
         }], {});
     },
 

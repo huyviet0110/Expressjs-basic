@@ -1,9 +1,6 @@
 import express from 'express';
-import StaffController from '../controllers/StaffController';
 import DepartmentController from '../controllers/DepartmentController';
-import staffValidate from '../validations/staff.validation';
 import departmentValidate from '../validations/department.validation';
-import db from '../models/index'
 
 const router = express.Router();
 
