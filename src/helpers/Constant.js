@@ -1,0 +1,21 @@
+const HTTP_OK = 200;
+const HTTP_UNAUTHORIZE = 401;
+const HTTP_FORBIDDEN = 403;
+const HTTP_EXPECTATION_FAILED = 417;
+const HTTP_SERVER_ERROR = 500;
+
+const MALE = 0;
+const FEMALE = 1;
+
+const SALT_LENGTH = 10;
+
+module.exports = {
+    HTTP_OK,
+    HTTP_UNAUTHORIZE,
+    HTTP_FORBIDDEN,
+    HTTP_EXPECTATION_FAILED,
+    HTTP_SERVER_ERROR,
+    MALE,
+    FEMALE,
+    SALT_LENGTH
+}
